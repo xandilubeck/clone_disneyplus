@@ -1,9 +1,20 @@
-.avaliable-devices {
+.available-devices {
     padding: 5.6vw;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 24px;
+    }
 
     &__list {
         display: grid;
-        grid-template-rows: repeat(4, 25%);
+        gap: 24px;
+        grid-template-columns: repeat(4, 1fr);
+
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr 1fr;
+        }
+
         &__item {
             text-align: center;
 

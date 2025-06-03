@@ -9,10 +9,10 @@
     &__questions {
         &__item {
             background-color: #13151d;
-            margin-bottom: 24px;
+            margin-bottom: 16px;
 
             &__question {
-                color: white;
+                color: #fff;
                 font-size: 20px;
                 padding: 24px;
                 display: block;
@@ -42,7 +42,7 @@
                 .faq__questions__item__question::after {
                     content: '-';
                 }
-
+                
                 .faq__questions__item__answer {
                     height: auto;
                     padding-bottom: 24px;
